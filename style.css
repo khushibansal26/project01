@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Navbar styling */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding-top: 8px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 19px;
+    font-size: 21px;
+    color: black;
+
+}
+
+.navbar ul li a:hover {
+    color: rgb(68, 68, 148)
+}
+
+.name {
+    font-family: 'Dancing Script', cursive;
+    padding: 4px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+
+/* main styling */
+
+.container {
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    background-color: chocolate;
+    display: flex;
+}
+
+.devinfo {
+    background-color: rgb(32, 139, 0);
+    width: 65%;
+    font-size: 100px;
+    padding-left: 20px;
+}
+
+.devinfo-sm {
+    font-size: 31px;
+}
+
+.devimg img {
+    width: 400px;
+}
